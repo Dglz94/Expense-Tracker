@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import {
   addTransaction,
   CATEGORIES,
-} from '../features/transactions/transactionsSlice';
+} from '../features/transactions/transactionsSlice.js';
 import { v4 as uuidv4 } from 'uuid';
 
 export default function TransactionForm({ categories }) {
